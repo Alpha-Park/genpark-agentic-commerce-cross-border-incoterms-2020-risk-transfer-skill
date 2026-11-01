@@ -1,0 +1,24 @@
+{
+  "name": "genpark-agentic-commerce-cross-border-incoterms-2020-risk-transfer-skill",
+  "version": "1.0.0",
+  "description": "Incoterms 2020 (FOB vs CIF vs DDP) marine insurance, cargo risk transfer demarcation & freight cost allocator.",
+  "category": "agentic_commerce",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "allocate_incoterms_cost_and_risk",
+      "description": "Incoterms 2020 (FOB vs CIF vs DDP) marine insurance, cargo risk transfer demarcation & freight cost allocator.",
+      "sample_input": {
+        "incoterm_rule": "CIF",
+        "origin_charges_usd": 650.0,
+        "main_ocean_freight_usd": 3200.0,
+        "destination_charges_usd": 850.0,
+        "customs_duty_import_usd": 1450.0,
+        "cargo_commercial_value_usd": 45000.0
+      }
+    }
+  ]
+}
